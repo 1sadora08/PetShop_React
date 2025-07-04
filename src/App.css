@@ -1,0 +1,116 @@
+.logo img{
+  height: 100px;
+}
+
+.menu{
+  padding: 0 20px !important;
+  border-left: 1px solid #666 !important;
+  text-transform: uppercase;
+  /* border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #666; */
+}
+
+.menu:first-child{
+  border-left: none !important;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #666;
+  font-size: 20px;
+}
+
+.menu a:hover{
+  opacity: .7;
+}
+
+.imgbanner img{
+  width: 100%;
+  height: 40vw;
+}
+
+.contato{
+  background-color: #333;
+  padding: 30px 0;
+}
+
+.contato h1{
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 5px;
+}
+
+.linhaForm{
+  margin: 10px 0;
+}
+
+input[type=submit]{
+  width: auto;
+  padding: 5px 20px;
+  background-color: #666;
+  color: white;
+  float: right;
+}
+
+.icones{
+  color: #fff;
+}
+
+.info{
+  color: #fff;
+}
+
+.mapa iframe{
+  width: 100%;
+  height: 350px;
+}
+
+.direitosAutorais{
+  width: 100%;
+  padding: 20px 0;
+  background-color: #ccc;
+  text-align: center;
+  margin-top: -7px;
+  color: #333;
+}
+
+.rotulo{
+  background-color: #333;
+  color: #fff;
+  font-size: 30px;
+  width: fit-content;
+  text-transform: uppercase;
+  padding: 5px 300px 5px 30px;
+  
+}
+
+.call{
+  background-color: #ccc;
+  color: #333;
+  padding: 50px 0;
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.fotosAdestramento{
+  display: flex;
+  justify-content: center;
+}
+
+.fotosAdestramento img{
+  width: 95%;
+  height: 80%;
+}
+
+.fotosHotelResort{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
